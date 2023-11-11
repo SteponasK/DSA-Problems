@@ -1,0 +1,1 @@
+We can solve this problem in linear time as we need the only maximum, second maximum, minimum, and second minimum elements to solve this problem. We can compute all these in only a single traversal of the array, which accounts for O(n) time complexity. 

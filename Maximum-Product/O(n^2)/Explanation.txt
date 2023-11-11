@@ -1,0 +1,3 @@
+A naive solution is to consider every pair of elements and calculate their product. Update the maximum product found so far if the product of the current pair is greater. Finally, print the elements involved in the maximum product.
+
+The time complexity of the above solution is O(n^2) and doesn’t require any extra space, where n is the size of the input.

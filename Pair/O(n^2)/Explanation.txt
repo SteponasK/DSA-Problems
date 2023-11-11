@@ -1,4 +1,4 @@
 1. Using Brute-Force
 A naive solution is to consider every pair in the given array and return if the desired sum is found. 
 
-The time complexity of the above solution is O(n2) and doesn’t require any extra space.
+The time complexity of the above solution is O(n^2) and doesn’t require any extra space.

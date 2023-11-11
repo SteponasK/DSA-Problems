@@ -1,0 +1,3 @@
+A simple solution would be to count the total number of 0’s present in the array, say k, and fill the first k indices in the array by 0 and all remaining indices by 1.
+
+The time complexity of the above solution is O(n) and doesn’t require any extra space, where n is the size of the input.

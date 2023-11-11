@@ -1,0 +1,6 @@
+The time complexity can be improved by sorting the array. Then the result is the maximum of the following:
+
+1.The product of maximum and second maximum integer in the array (i.e., the last two elements in a sorted array).
+2.The product of minimum and second minimum integers in the array (i.e., the first two elements in the sorted array).
+
+The time complexity of the above solution is O(n.log(n))

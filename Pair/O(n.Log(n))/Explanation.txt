@@ -1,0 +1,4 @@
+2. Using Sorting
+The idea is to sort the given array in ascending order and maintain search space by maintaining two indices (low and high) that initially points to two endpoints of the array. Then reduce the search space nums[low…high] at each iteration of the loop by comparing the sum of elements present at indices low and high with the desired sum. Increment low if the sum is less than the expected sum; otherwise, decrement high if the sum is more than the desired sum. If the pair is found, return it.
+
+The time complexity of the above solution is O(n.log(n)) and doesn’t require any extra space.

@@ -1,0 +1,4 @@
+3. Using Hashing
+We can use a hash table to solve this problem in linear time. The idea is to insert each array element nums[i] into a map. We also check if difference (nums[i], target - nums[i]) already exists in the map or not. If the difference is seen before, print the pair and return.
+
+The time complexity of the above solution is O(n) and requires O(n) extra space.
